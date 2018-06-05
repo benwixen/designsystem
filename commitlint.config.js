@@ -46,6 +46,7 @@ module.exports = {
                 'ffe-spinner',
                 'ffe-spinner-react',
                 'ffe-step-indicator',
+                'ffe-step-indicator-react',
                 'ffe-system-message',
                 'ffe-system-message-react',
                 'ffe-tables',

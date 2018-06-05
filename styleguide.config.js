@@ -15,6 +15,7 @@ const PACKAGES_WITH_DEFAULT_EXPORT = [
     'ffe-file-upload-react',
     'ffe-searchable-dropdown-react',
     'ffe-spinner-react',
+    'ffe-step-indicator-react',
     'ffe-tables-react',
 ];
 
@@ -230,6 +231,10 @@ module.exports = {
         {
             name: 'Faner',
             components: 'packages/ffe-tabs-react/src/[A-Z]+([A-Za-z]).js',
+        },
+        {
+            name: 'Stegindikator',
+            components: 'packages/ffe-step-indicator-react/src/StepIndicator.js',
         },
     ],
 };
