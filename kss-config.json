@@ -12,6 +12,7 @@
         "packages/ffe-lists/less",
         "packages/ffe-message-box/less",
         "packages/ffe-spinner/less",
+        "packages/ffe-step-indicator/less",
         "packages/ffe-system-message/less",
         "packages/ffe-tables/less",
         "packages/ffe-tabs/less"

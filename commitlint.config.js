@@ -45,6 +45,7 @@ module.exports = {
                 'ffe-searchable-dropdown-react',
                 'ffe-spinner',
                 'ffe-spinner-react',
+                'ffe-step-indicator',
                 'ffe-system-message',
                 'ffe-system-message-react',
                 'ffe-tables',

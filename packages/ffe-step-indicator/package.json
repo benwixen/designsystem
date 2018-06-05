@@ -1,0 +1,22 @@
+{
+    "name": "@sb1/ffe-step-indicator",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "SpareBank1",
+    "files": [
+        "less",
+        "example"
+    ],
+    "main": "less/ffe-step-indicator.less",
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com:SpareBank1/designsystem.git"
+    },
+    "scripts": {
+        "lint": "stylelint less/*.less",
+        "test": "npm run lint"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
