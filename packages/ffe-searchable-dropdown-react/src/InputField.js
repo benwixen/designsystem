@@ -30,6 +30,7 @@ class Input extends Component {
             placeholder,
             onReset,
             ariaInvalid,
+            autoComplete,
         } = this.props;
         return (
             <div>
@@ -37,6 +38,7 @@ class Input extends Component {
                     className={classNames('ffe-dropdown', {
                         'ffe-searchable-dropdown__display-reset': this.displayReset(),
                     })}
+                    autoComplete={autoComplete}
                     aria-invalid={String(ariaInvalid)}
                     id={inputId}
                     onBlur={onBlur}
@@ -68,6 +70,7 @@ class Input extends Component {
 
 Input.propTypes = {
     ariaInvalid: bool,
+    autoComplete: string,
     inputId: string,
     inputValue: string,
     onBlur: func.isRequired,
